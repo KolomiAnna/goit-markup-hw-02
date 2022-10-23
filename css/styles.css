@@ -1,0 +1,235 @@
+:root {
+	--primary-text-color: #757575;
+	--title-text-color: #212121;
+	--link-color: #2196f3;
+	--primary-bg-color: #ffffff;
+	--secondary-bg-color: #2f303a;
+	--third-bg-color: #f5f4fa;
+	--logo-color: #000000;
+}
+
+body {
+	background: var(-primary-bg-color);
+	color: var(--primary-text-color);
+	font-family: "Raleway", sans-serif;
+	font-family: "Roboto", sans-serif;
+}
+
+.list {
+	list-style: none;
+}
+.link {
+	text-decoration: none;
+}
+
+/* ----------ШАПКА------------ */
+/* Логотип */
+.logo-head.link,
+.footer-logo.link {
+	font-weight: 700;
+	font-size: 26px;
+	line-height: 1.19;
+	letter-spacing: 0.03em;
+}
+
+.logo-head {
+	color: var(--logo-color);
+}
+
+.web {
+	color: var(--link-color);
+}
+
+/* Навігація */
+.link {
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 1.14;
+	letter-spacing: 0.02em;
+	color: var(--title-text-color);
+}
+
+.link:hover,
+.link:focus {
+	color: var(--link-color);
+}
+.current {
+	color: var(--link-color);
+}
+
+/* Контакти */
+.contacts .contact {
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 1.14;
+	letter-spacing: 0.02em;
+	color: var(--primary-text-color);
+}
+
+.head .contact:hover,
+.head .contact:focus {
+	color: var(--link-color);
+}
+
+/* -------------ТІЛО------------ */
+/* Слоган*/
+
+.slogan {
+	background-color: var(--secondary-bg-color);
+	width: 1600px;
+	height: 600px;
+}
+
+.slogan-title {
+	font-weight: 900;
+	font-size: 44px;
+	line-height: 1.36;
+	text-align: center;
+	letter-spacing: 0.06em;
+	text-transform: uppercase;
+	color: var(--primary-bg-color);
+
+	position: absolute;
+	width: 696px;
+	height: 120px;
+	left: 452px;
+	top: 280px;
+}
+
+.button {
+	font-family: "Roboto";
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 1.87;
+	color: var(--primary-bg-color);
+
+	position: absolute;
+	width: 696px;
+	height: 120px;
+	left: 452px;
+	top: 600px;
+	background: var(--link-color);
+}
+
+/* Характеристика нашої роботи */
+
+.section-title {
+	color: var(--title-text-color);
+}
+.section-title.characteristic {
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 1.14;
+	letter-spacing: 0.03em;
+	text-transform: uppercase;
+}
+
+.paragraph {
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 1.71;
+	letter-spacing: 0.03em;
+}
+
+/* Чим ми займаємося */
+.section-title.do {
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 1.16px;
+	text-align: center;
+	letter-spacing: 0.03em;
+}
+
+/* Наша команда */
+
+.section.comand {
+	background-color: var(--third-bg-color);
+}
+
+.section-title.name {
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.19;
+	text-align: center;
+	letter-spacing: 0.03em;
+}
+
+/* ----------ПІДВАЛ-----------*/
+
+.footer-logo.link {
+	font-weight: 700;
+	font-size: 26px;
+	line-height: 1.19;
+	letter-spacing: 0.03em;
+}
+
+.studio {
+	color: var(--primary-bg-color);
+}
+
+.work {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 1.19;
+	text-align: center;
+	letter-spacing: 0.03em;
+}
+
+.footer {
+	width: 1600px;
+	height: 252px;
+	left: 0px;
+	top: 2094px;
+	background: var(--secondary-bg-color);
+}
+
+.maps.link,
+.contact.link {
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 1.71px;
+	letter-spacing: 0.03em;
+	color: var(--primary-bg-color);
+}
+
+.contact.link {
+	color: rgba(255, 255, 255, 0.6);
+}
+
+/*  ----....-----ПОРТФОЛІО-----....-----*/
+
+/* Кнопки*/
+.button-list {
+	font-family: "Roboto";
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.62;
+	text-align: center;
+	letter-spacing: 0.03em;
+	background: var(--third-bg-color);
+	color: var(title-text-color);
+}
+
+.button-list:focus,
+.button-list:hover,
+.button-list:active {
+	color: var(--primary-bg-color);
+	background: var(--link-color);
+}
+
+/* Проекти */
+.work-name {
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 2;
+	letter-spacing: 0.06em;
+	color: var(--title-text-color);
+}
+
+.job {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 1.9;
+	letter-spacing: 0.03em;
+}
