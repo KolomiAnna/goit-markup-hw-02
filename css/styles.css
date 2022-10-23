@@ -25,7 +25,7 @@ body {
 /* ----------ШАПКА------------ */
 /* Логотип */
 .logo-head.link,
-.footer-logo.link {
+.footer-logo.link {font-family: "Raleway";
 	font-weight: 700;
 	font-size: 26px;
 	line-height: 1.19;
@@ -58,13 +58,13 @@ body {
 }
 
 /* Контакти */
-.contacts .contact {
+.contact.link {
 	font-weight: 500;
 	font-size: 14px;
 	line-height: 1.14;
 	letter-spacing: 0.02em;
-	color: var(--primary-text-color);
-}
+	color: var(--primary-text-color);}
+
 
 .head .contact:hover,
 .head .contact:focus {
@@ -104,8 +104,6 @@ body {
 	color: var(--primary-bg-color);
 
 	position: absolute;
-	width: 696px;
-	height: 120px;
 	left: 452px;
 	top: 600px;
 	background: var(--link-color);
@@ -117,7 +115,6 @@ body {
 	color: var(--title-text-color);
 }
 .section-title.characteristic {
-	font-weight: 700;
 	font-size: 14px;
 	line-height: 1.14;
 	letter-spacing: 0.03em;
@@ -125,7 +122,6 @@ body {
 }
 
 .paragraph {
-	font-weight: 400;
 	font-size: 14px;
 	line-height: 1.71;
 	letter-spacing: 0.03em;
@@ -133,9 +129,8 @@ body {
 
 /* Чим ми займаємося */
 .section-title.do {
-	font-weight: 700;
 	font-size: 36px;
-	line-height: 1.16px;
+	line-height: 1.16;
 	text-align: center;
 	letter-spacing: 0.03em;
 }
@@ -168,7 +163,6 @@ body {
 }
 
 .work {
-	font-weight: 400;
 	font-size: 16px;
 	line-height: 1.19;
 	text-align: center;
@@ -185,17 +179,14 @@ body {
 
 .maps.link,
 .contact.link {
-	font-style: normal;
-	font-weight: 400;
 	font-size: 14px;
-	line-height: 1.71px;
+	line-height: 1.71;
 	letter-spacing: 0.03em;
-	color: var(--primary-bg-color);
+}	
+
+.maps.link {color: var(--primary-bg-color);
 }
 
-.contact.link {
-	color: rgba(255, 255, 255, 0.6);
-}
 
 /*  ----....-----ПОРТФОЛІО-----....-----*/
 
@@ -220,7 +211,6 @@ body {
 
 /* Проекти */
 .work-name {
-	font-weight: 700;
 	font-size: 18px;
 	line-height: 2;
 	letter-spacing: 0.06em;
@@ -228,7 +218,6 @@ body {
 }
 
 .job {
-	font-weight: 400;
 	font-size: 16px;
 	line-height: 1.9;
 	letter-spacing: 0.03em;
